@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What I Can Do With JavaScript</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="myprojects.html">What I Can Do With JavaScript</a></li>
+        <li><a href="coding.html">Coding</a></li>
+        <li><a href="design.html">Design</a></li>
+        <li><a href="platforms.html">Platforms</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1 id="welcome"></h1>
+      <h4 id="sentence"></h4>
+    </header>
+    <h3>What I can do with JavaScript</h3>
+<ol>
+  <li>I added a javascript string variable to make a welcome message that displays on each page and used my html to call the welcome message as an h1 in the site</li>
+  <li>I added an object with two number variables 138 and 2.5 and then created a document.getElementByID with a sentence that pulls the variables from the object and displays on each page below the welcome message.</li>
+  <li>For the "Platforms" page, I used an if, else if, else conditional to create a quiz on one of the pages of my site. It is a quiz where you guess which platform game developers used the most in 2018. You type the answer from one of the four options given and hit submit. Then the JavaScript checks the answer and returns a sentence  depending on your answer.</li>
+  <li>For the "Design" page, I added an array in on object in my Javascript that passes "features" in the description to the html as a list.</li>
+  <li>For the "What I cant do with JavaScript page, I added a form element with validation that allows the user to input contact information and Javascript validates the information is entered.</li>
+</ol>
+<p>If you would like to contact me please submit your information below:</p>
+<form name="contact" action = "submit" onsubmit = "return validate()" method = "post">
+  <p>Name: <input type="text" size=65 name="name" > </p><br>
+  <p>E-mail Address: <input type="email" size=65 name="email"> </p><br>
+  <p><label for="interests">Interests:</label>
+  <select type="" value="" name="jobChoice" > 
+    <option>Gaming</option> 
+    <option>Programming</option> 
+    <option>Design</option> 
+    <option>Other</option>  
+    </select></p><br>
+    <p>Comments: <br><textarea cols="100" rows="10" name="comments">  </textarea></p>
+    <p><input type="submit" value="Submit" name="Submit" >
+</form>
+    <ol></ol>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+    <script src="../js/main.js"></script>
+    </p>
+  </body>
+</html>

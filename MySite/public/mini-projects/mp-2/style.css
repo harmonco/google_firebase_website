@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: auto;
+}
+input[type=text]{
+    border: none;
+    font-size: 20px;
+    text-align: left;
+}
+input[type=button] {background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid green;
+    text-align: center;
+    vertical-align: middle;
+}
+.flex-grid{
+    display: flex;
+    padding-top: 100px;
+    max-width: 500px;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .flex-grid-havles {
+        display: block;
+    }
+    .flex-grid-havles .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+}

@@ -1,0 +1,98 @@
+p.subtitle { 
+    color: darkblue;
+    font-style: italic;
+    font-size: 20px;
+    }
+header {margin-top: 50px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: darkblue;
+        font-size: 1.0em;
+        background-image: url(../images/grass2.png);
+        background-size: cover;
+        padding: 5px;}
+body {background-color: #FDD9B5;
+        margin: 0;}
+.content { padding: 5px;
+
+        }
+nav { position: fixed; top: 0; left: 0;
+        z-index: 9999;
+        width: 100%;
+        height: auto;
+        text-align: right;
+        background-color: #FDD9B5;
+        margin: 0;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        padding-right: 0;}
+nav ul { list-style-type: none;
+        margin: 0;
+        padding-right: 2em;
+        font-size: 1.2em; }
+nav li { display: inline;
+        padding-left: 2em;
+        }
+ nav a:link {color: #152129; }
+nav a:visited {color: #2CBD7F; }
+nav a:hover {color: #A26100; }
+nav a {text-decoration: none; }
+
+.row {
+        display: flex;
+        padding-left: 20px;
+}
+.column {
+        flex: 33.3%;
+        padding-left: 10px;
+        padding-right: 20px;
+        border-right: solid;
+        border-width: 1px;
+}
+h3 {
+        color: darkblue;
+        font-style: italic;
+        font-weight: bold;
+        padding-left: 0.5em;
+        font-size: 1.5em;
+}
+h2 {
+        text-align: center;
+        color: darkblue;
+        font-style: italic;
+}
+p {
+        padding-left: 5em;
+}
+input[type=submit]{
+        padding: 0.75em;
+        background-color: darkblue;
+        color: white;
+}
+ol {
+        font-size: 1.2em;
+        font-family: 'Times New Roman', Times, serif;
+}
+.slide-viewer {
+        position: relative;
+        overflow: hidden;
+        height: 520px;
+        text-align: center;
+}
+.slide-group{
+        width: 100%;
+        height: 100%;
+        position: relative;
+}
+.slide {
+        width: 100%;
+        height: 100%;
+        display: none;
+        position: absolute;
+}
+.slide:first-child {
+        display: block;
+}
+.slide-buttons{
+        text-align: center;
+}

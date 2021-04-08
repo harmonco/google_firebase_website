@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Currency Converter</h1>
+    </header>
+    <div class="flex-grid-halves">
+      <div class="col">
+        <label for="converter" class="text-strong">Enter $USD</label>
+        <input type="number" id="converter" 
+        name="converter" placeholder ="Enter USD"
+        onInput="currencyConvert(this.value)" 
+        onChange="currencyConvert(this.value)">
+      </div>
+      <div class="col text-strong">
+        <span id="converted">0.00</span> GBP
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

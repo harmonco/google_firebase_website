@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.flex-grid-havles {
+    display: flex;
+    justify-content: space-between;
+    border
+}
+
+.col {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.flex-grid-halves .col {
+    width: 50%;
+}
+
+.text-strong{
+    font-weight: bold;
+}
+
+/* Remove the input spinner boxes */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    padding: .5em;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    .flex-grid-havles {
+        display: block;
+    }
+    .flex-grid-havles .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+}
